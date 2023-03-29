@@ -17,7 +17,7 @@ resource "null_resource" "resource3" {
  }
 }
 
-resource "random_integer" "ff55" {
+resource "random_integer" "street-do-manage" {
   count = 1
   min = 32
   max = 180
