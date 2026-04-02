@@ -1,3 +1,3 @@
 resource "terraform_data" "some" {
-  triggers_replace = timestamp()
+  triggers_replace = "base-branch-change"
 }
